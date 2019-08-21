@@ -7,23 +7,9 @@ title: [上](../)\sandbox
 2. [Mathjax 導入テスト](math-test)
 
 
-: 定義
-単語
+{:#term} Term with id="term"
+: {:.cls} Definition with class "cls"
 
-単語
-: 定義
-
-これは明らかにpタグになってほしい
-
-単語
-: 定義  
-
-pタグ？
-
-単語
-: 定義  
-
-  
-
-単語
-: 定義  
+{:#term1} First term
+{:#term2} Second term
+: {:.cls} Definition
