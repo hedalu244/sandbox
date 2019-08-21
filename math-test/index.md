@@ -44,9 +44,11 @@ $P$を添字集合とする集合族$C$がある。この要素を **格集合**
 
 こうして定義した論理式には $\\lor$、$\\Rightarrow$、$\\forall$ などがないが、これらは以下のような同一視をすれば表現できる。
 
-$$(\\phi \\lor \\psy) → \\lnot(\\lnot\\phi \\land \\lnot\\psy)$$
-$$(\\phi \\Rightarrow \\psy) → \\lnot(\\phi \\land \\lnot\\psy)$$
-$$(\\forall x \\phi) → (\\lnot(\\exists x \\lnot\\phi))$$
+\\[(\\phi \\lor \\psy) → \\lnot(\\lnot\\phi \\land \\lnot\\psy)\\]
+
+\\[(\\phi \\Rightarrow \\psy) → \\lnot(\\phi \\land \\lnot\\psy)\\]
+
+\\[(\\forall x \\phi) → (\\lnot(\\exists x \\lnot\\phi))\\]
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
