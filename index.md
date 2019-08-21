@@ -10,8 +10,6 @@ title: sandbox
 {:#term}
 Term with id="term"
 : Definition with class "cls"
-
-{:#term2} 
 First term
 Second term
 : Definition
