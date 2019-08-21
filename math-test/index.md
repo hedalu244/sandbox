@@ -33,12 +33,12 @@ $P$を添字集合とする集合族$C$がある。この要素を **格集合**
 
 述語記号$p$と、$C_p$から変数記号$V$への写像$A$の組$(p, A)$を原子論理式と呼ぶ。原子論理式は 述語記号(格記号:変数記号, 格記号:変数記号...)という形式で表記する。
 
-**論理式** は以下のように再帰的に定義される。また、各論理式$\\phi$について **自由変数** $F(\\phi) (F(\\phi)\\subsetV)$を以下のように定義する。
+**論理式** は以下のように再帰的に定義される。また、各論理式$\\phi$について **自由変数** $F(\\phi) (F(\\phi)\\subset V)$を以下のように定義する。
 
 + 任意の原子論理式$(p, A)$は論理式であり、$F((p, A))$は$A$の値域である。
 + $\\phi$が論理式ならば、$(\\lnot \\phi)$ は論理式であり、$F((\\lnot \\phi))=f(\\phi)$である。
 + $\\phi_0$～$\\phi_n$が論理式ならば、$(\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n)$は論理式であり、$F((\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n))=f(\\phi_0) \\cup f(\\phi_1) \\cup ... \\cup f(\\phi_n)$である。
-+ $\\phi$が論理式で $x∈F(\\phi)$ならば、$(\\existsx \\phi)$は論理式であり、$F((\\existsx \\phi))$は$f(\\phi)$から$x$を除いた集合 (${v∈f(\\phi)|v≠x}$) である。
++ $\\phi$が論理式で $x∈F(\\phi)$ならば、$(\\exists x \\phi)$は論理式であり、$F((\\exists x \\phi))$は$f(\\phi)$から$x$を除いた集合 (${v∈f(\\phi)|v≠x}$) である。
 
 論理式$\\phi$のうち、$F(\\phi)$が空集合であるものを、ここでの **意味** とする。
 
@@ -46,7 +46,7 @@ $P$を添字集合とする集合族$C$がある。この要素を **格集合**
 
 $$(\\phi \\lor \\psy) → \\lnot(\\lnot\\phi \\land \\lnot\\psy)$$
 $$(\\phi \\Rightarrow \\psy) → \\lnot(\\phi \\land \\lnot\\psy)$$
-$$(\\forallx \\phi) → (\\lnot(\\existsx \\lnot\\phi))$$
+$$(\\forall x \\phi) → (\\lnot(\\exists x \\lnot\\phi))$$
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
