@@ -6,7 +6,7 @@
 ```
 
 インライン数式 $E=mc^2$
-インライン数式 \(E=mc^2\)
+インライン数式 \\(E=mc^2\\)
 
 ## ブロック数式
 
@@ -16,7 +16,7 @@ $$E=mc^2$$
 ```
 
 $$E=mc^2$$
-\[E=mc^2\]
+\\[E=mc^2\\]
 
 
 <script type="text/x-mathjax-config">
@@ -24,6 +24,7 @@ MathJax.Hub.Config({
   // Latexみたいに$...$で囲めばインラインになるようにする
   tex2jax: {
     inlineMath: [['$', '$'], ["\\(", "\\)"]],
+    displayMath: [['$$', '$$'], ["\\[", "\\]"]],
     processEscapes: true
   }
 });
