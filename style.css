@@ -60,3 +60,10 @@ strong {
   font-size:1em;
   font-weight: bold;
 }
+
+
+code {
+  background-color: #eee;
+  padding: .1em .4em;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+}
