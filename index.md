@@ -1,6 +1,6 @@
 ---
 layout: default
-title: sandbox
+title: [上](../)\sandbox
 ---
 
 1. [Markdown記法 チートシート by mignonstyle](markdown-test)
