@@ -3,12 +3,12 @@
 ```
 インライン数式 $E=mc^2$
 
-インライン数式 \(E=mc^2\)
+インライン数式 \\\left(E=mc^2\\\right)
 ```
 
 インライン数式 $E=mc^2$
 
-インライン数式 \\(E=mc^2\\)
+インライン数式 \\\\left(E=mc^2\\\\right)
 
 ## ブロック数式
 
@@ -31,24 +31,24 @@ $$E=mc^2$$
 
 $P$を添字集合とする集合族$C$がある。この要素を **格集合** と呼び、格集合の元を **格記号** と呼ぶ。格集合はすべて有限集合である。
 
-述語記号$p$と、$C_p$から変数記号$V$への写像$A$の組$(p, A)$を原子論理式と呼ぶ。原子論理式は 述語記号(格記号:変数記号, 格記号:変数記号...)という形式で表記する。
+述語記号$p$と、$C_p$から変数記号$V$への写像$A$の組$\\left(p, A\\right)$を原子論理式と呼ぶ。原子論理式は 述語記号(格記号:変数記号, 格記号:変数記号...)という形式で表記する。
 
-**論理式** は以下のように再帰的に定義される。また、各論理式$\\phi$について **自由変数** $F(\\phi) (F(\\phi)\\subset V)$を以下のように定義する。
+**論理式** は以下のように再帰的に定義される。また、各論理式$\\phi$について **自由変数** $F\\left(\\phi\\right) \\left(F\\left(\\phi\\right)\\subset V\\right)$を以下のように定義する。
 
-+ 任意の原子論理式$(p, A)$は論理式であり、$F((p, A))$は$A$の値域である。
-+ $\\phi$が論理式ならば、$(\\lnot \\phi)$ は論理式であり、$F((\\lnot \\phi))=f(\\phi)$である。
-+ $\\phi_0$～$\\phi_n$が論理式ならば、$(\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n)$は論理式であり、$F((\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n))=f(\\phi_0) \\cup f(\\phi_1) \\cup ... \\cup f(\\phi_n)$である。
-+ $\\phi$が論理式で $x∈F(\\phi)$ならば、$(\\exists x \\phi)$は論理式であり、$F((\\exists x \\phi))$は$f(\\phi)$から$x$を除いた集合 (${v∈f(\\phi)|v≠x}$) である。
++ 任意の原子論理式$\\left(p, A\\right)$は論理式であり、$F\\left(\\left(p, A\\right)\\right)$は$A$の値域である。
++ $\\phi$が論理式ならば、$\\left(\\lnot \\phi\\right)$ は論理式であり、$F\\left(\\left(\\lnot \\phi\\right)\\right)=f\\left(\\phi\\right)$である。
++ $\\phi_0$～$\\phi_n$が論理式ならば、$\\left(\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n\\right)$は論理式であり、$F\\left(\\left(\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n\\right)\\right)=f\\left(\\phi_0\\right) \\cup f\\left(\\phi_1\\right) \\cup ... \\cup f\\left(\\phi_n\\right)$である。
++ $\\phi$が論理式で $x∈F\\left(\\phi\\right)$ならば、$\\left(\\exists x \\phi\\right)$は論理式であり、$F\\left(\\left(\\exists x \\phi\\right)\\right)$は$f\\left(\\phi\\right)$から$x$を除いた集合 \\left(${v∈f\\left(\\phi\\right)|v≠x}$\\right) である。
 
-論理式$\\phi$のうち、$F(\\phi)$が空集合であるものを、ここでの **意味** とする。
+論理式$\\phi$のうち、$F\\left(\\phi\\right)$が空集合であるものを、ここでの **意味** とする。
 
 こうして定義した論理式には $\\lor$、$\\Rightarrow$、$\\forall$ などがないが、これらは以下のような同一視をすれば表現できる。
 
-\\[(\\phi \\lor \\psy) → \\lnot(\\lnot\\phi \\land \\lnot\\psy)\\]
+\\[\\left(\\phi \\lor \\psi\\right) → \\lnot\\left(\\lnot\\phi \\land \\lnot\\psi\\right)\\]
 
-\\[(\\phi \\Rightarrow \\psy) → \\lnot(\\phi \\land \\lnot\\psy)\\]
+\\[\\left(\\phi \\Rightarrow \\psi\\right) → \\lnot\\left(\\phi \\land \\lnot\\psi\\right)\\]
 
-\\[(\\forall x \\phi) → (\\lnot(\\exists x \\lnot\\phi))\\]
+\\[\\left(\\forall x \\phi\\right) → \\left(\\lnot\\left(\\exists x \\lnot\\phi\\right)\\right)\\]
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
