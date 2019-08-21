@@ -3,5 +3,5 @@ layout: default
 title: sandbox
 ---
 
-[Markdown記法 チートシート by mignonstyle](markdown-test)
-[Mathjax 導入テスト](math-test)
+1. [Markdown記法 チートシート by mignonstyle](markdown-test)
+2. [Mathjax 導入テスト](math-test)
