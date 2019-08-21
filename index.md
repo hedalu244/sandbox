@@ -11,7 +11,7 @@ title: sandbox
 Term with id="term"
 : Definition with class "cls"
 
-{:#term} 
+{:#term2} 
 First term
 Second term
 : Definition
