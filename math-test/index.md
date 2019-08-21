@@ -23,6 +23,11 @@ $$E=mc^2$$
 \\[E=mc^2\\]
 
 
+\\begin{align}
+f(x) &= x^2+3x+2 \\\\
+&= (x+1)(x+2)
+\\end{align}
+
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
