@@ -38,7 +38,7 @@ $P$を添字集合とする集合族$C$がある。この要素を **格集合**
 + 任意の原子論理式$\\left(p, A\\right)$は論理式であり、$F\\left(\\left(p, A\\right)\\right)$は$A$の値域である。
 + $\\phi$が論理式ならば、$\\left(\\lnot \\phi\\right)$ は論理式であり、$F\\left(\\left(\\lnot \\phi\\right)\\right)=f\\left(\\phi\\right)$である。
 + $\\phi_0$～$\\phi_n$が論理式ならば、$\\left(\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n\\right)$は論理式であり、$F\\left(\\left(\\phi_0 \\land \\phi_1 \\land ... \\land \\phi_n\\right)\\right)=f\\left(\\phi_0\\right) \\cup f\\left(\\phi_1\\right) \\cup ... \\cup f\\left(\\phi_n\\right)$である。
-+ $\\phi$が論理式で $x∈F\\left(\\phi\\right)$ならば、$\\left(\\exists x \\phi\\right)$は論理式であり、$F\\left(\\left(\\exists x \\phi\\right)\\right)$は$f\\left(\\phi\\right)$から$x$を除いた集合 \\left(${v∈f\\left(\\phi\\right)|v≠x}$\\right) である。
++ $\\phi$が論理式で $x∈F\\left(\\phi\\right)$ならば、$\\left(\\exists x \\phi\\right)$は論理式であり、$F\\left(\\left(\\exists x \\phi\\right)\\right)$は$f\\left(\\phi\\right)$から$x$を除いた集合 (${v∈f\\left(\\phi\\right)|v≠x}$) である。
 
 論理式$\\phi$のうち、$F\\left(\\phi\\right)$が空集合であるものを、ここでの **意味** とする。
 
