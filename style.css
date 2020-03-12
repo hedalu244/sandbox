@@ -47,6 +47,8 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
   box-shadow: 0px 3px 8px #ccc;
 }
 
+
+
 p {
   line-height: 2em;
 }
@@ -65,4 +67,20 @@ code {
   background-color: #eee;
   padding: .1em .4em;
   font-family: Courier,monospace;
+}
+
+.glossed > ruby {
+  display:inline-block;
+  position: relative;
+  height: 4em;
+  line-height: 2em;
+}
+.glossed > ruby > rt {
+  display:block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2em;
+  line-height: 2em;
+  font-size: 80%;
 }

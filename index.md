@@ -13,3 +13,7 @@ Term with id="term"
 First term
 Second term
 : Definition
+
+{:.example}
+{:.varhil . glossed} <ruby>e<rt>//(は)<rt></ruby> <ruby>au<rt><></rt></ruby> <ruby>pina<rt>リンゴだ</rt><ruby>
+: {:.logic} リンゴだ(は:x)
